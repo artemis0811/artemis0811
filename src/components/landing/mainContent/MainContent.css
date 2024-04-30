@@ -1,0 +1,64 @@
+.main-content-component {
+  position: relative;
+  display: flex;
+}
+
+@media screen and (max-width: 640px) {
+    .main-content-component {
+        display: block;
+    }
+  }
+
+.main-content-image-glass {
+  height: 336px;
+  background-color: #04b5e7;
+}
+
+img.main-content-img-glass {
+  width: 23vw;
+  position: absolute;
+  top: -100px;
+  left: 35%;
+}
+
+img.main-content-img-tools {
+    height: 34vw;
+}
+
+.main-content-image-glass-text {
+  text-align: center;
+  font-size: 30pt;
+  color: #403637;
+  margin: 0px;
+  padding-top: 130px;
+}
+
+.main-content-image-tools {
+  background-color: #70c5be;
+}
+
+.main-content-roadmap {
+  background-color: #403637;
+}
+
+.main-content-roadmap-text {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: 600;
+  color: #f8a501;
+  padding: 20px;
+}
+
+.main-content-row {
+  width: 100%;
+  height: 67px;
+  background-color: #fe5f41;
+}
+
+.main-content-row p {
+  padding: 15px;
+  text-align: center;
+  font-size: 26pt;
+  color: #001c43;
+  margin: 0px;
+}

@@ -1,0 +1,41 @@
+.contact-component {
+    display: flex;
+    height: 798px;
+    background-color: #001C43;
+}
+
+@media screen and (max-width: 640px) {
+    .contact-component {
+        display: block;
+    }
+  }
+
+.contact-pantmaster {
+    background-color: #fff;
+}
+
+img.contact-pantmaster-img {
+    width: 27vw;
+    margin-top: 120px;
+}
+
+.contact-pantmaster-title {
+    font-size: 30pt;
+    font-weight: 800;
+    color: #F35F41;
+    margin-bottom: 10px;
+}
+
+.contact-pantmaster-desc {
+    font-size: 28pt;
+    font-weight: 400;
+    color: #403637;
+    margin: 0px;
+}
+
+p.enterbeardverse {
+    font-size: 96px;
+    font-weight: 800;
+    color: #70C5BE;
+    margin-top: 200px;
+}
