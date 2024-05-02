@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-width: 380px;
 }
 
 .App-logo {
@@ -49,7 +50,7 @@
   .left-component {
     width: 100% !important;
   }
-  
+
   .right-component {
     width: 100% !important;
   }
@@ -64,35 +65,39 @@ button.main-button {
 }
 
 button.main-button.btn-primary {
-  background-color: #FE5F41;
+  background-color: #fe5f41;
+  background-image: none;
   color: #fff;
-  border: 2px solid #111;
-  text-shadow: 2px 2px 2px black, 0 0 2px black, 0 0 2px black;
+  border: 2px solid #fe5f41;
+  /* text-shadow: 2px 2px 2px black, 0 0 2px black, 0 0 2px black; */
   transition: 0.5s;
-  box-shadow: 0px 2px 2px #cfcfcf;;
+  box-shadow: 0px 8px 4px #ffb1a3;
 }
 
 button.main-button.btn-primary:hover {
-  color: #111;
+  color: #1e5558;
   background-color: #fff;
-  border-color: #FE5F41;
+  background-image: radial-gradient(#fff 60%, #ddd 90%);
+  border-color: #fe5f41;
   text-shadow: none;
   box-shadow: none;
 }
 
 button.main-button.btn-default {
   background-color: #fff;
-  color: #111;
-  border: 2px solid #FE5F41;
+  background-image: radial-gradient(#fff 60%, #ddd 90%);
+  color: #1e5558;
+  border: 2px solid #fe5f41;
   text-shadow: none;
   transition: 0.5s;
 }
 
 button.main-button.btn-default:hover {
   color: #fff;
-  background-color: #FE5F41;
-  border-color: #111;
-  text-shadow: 2px 2px 2px black, 0 0 2px black, 0 0 2px black;
+  background-color: #fe5f41;
+  background-image: none;
+  border-color: #fe5f41;
+  box-shadow: 0px 8px 4px #ffb1a3;
 }
 
 .m-3 {

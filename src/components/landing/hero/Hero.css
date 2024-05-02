@@ -7,40 +7,13 @@
   min-height: 1048px;
 }
 
-@media screen and (max-width: 640px) {
-  .hero-component {
-    display: block;
-  }
-
-  .hero-image {
-    background-color: #70c5be;
-    height: 500px;
-  }
-}
-
-@media screen and (max-width: 1178px) {
-  ul.hero-content-header-menu li {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .hero-component {
-    display: block;
-  }
-
-  .hero-image {
-    background-color: #70c5be;
-    height: 300px;
-  }
-}
-
 .hero-image img.hero-img {
   width: 58vw;
 }
 
 ul.hero-content-header-menu {
   list-style-type: none;
+  margin-top: 50px;
 }
 
 ul.hero-content-header-menu li {
@@ -50,6 +23,7 @@ ul.hero-content-header-menu li {
   font-weight: 600;
   margin-left: 2.5vw;
   margin-right: 1.5vw;
+  color: #403637;
 }
 
 p.hero-content-title-text {
@@ -59,18 +33,100 @@ p.hero-content-title-text {
   font-size: 128px;
   font-weight: 700;
   margin: 0px;
+  color: #001c43;
 }
 
 p.hero-content-title-semi {
   text-align: center;
   font-size: 20px;
   font-weight: 600;
+  color: #403637;
 }
 
 p.hero-content-title-desc {
   text-align: center;
   font-size: 24px;
-  font-weight: 800;
+  /* font-weight: 800; */
   padding-top: 8vw;
-  text-shadow: 2px 2px 5px #9b9b9b;
+  /* text-shadow: 2px 2px 5px #9b9b9b; */
+  color: #403637;
+}
+
+@media screen and (max-width: 1178px) {
+  ul.hero-content-header-menu {
+    margin-top: 20px;
+  }
+  ul.hero-content-header-menu li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .hero-image {
+    min-height: 800px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  ul.hero-content-header-menu li {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  p.hero-content-title-text {
+    font-size: 100px;
+  }
+  p.hero-content-title-desc {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  ul.hero-content-header-menu li {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  p.hero-content-title-text {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .hero-component {
+    display: block;
+  }
+  .hero-image {
+    min-height: 500px;
+  }
+  ul.hero-content-header-menu li {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  p.hero-content-title-desc {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero-image {
+    min-height: 300px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .hero-image img.hero-img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero-image {
+    background-color: #70c5be;
+    height: 300px;
+  }
 }
