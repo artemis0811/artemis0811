@@ -1,0 +1,51 @@
+.customborder{
+    border-top:solid 1px #e5e5e5;
+  }
+  .right-box{
+    width: 40%; 
+    height: 100%; 
+    background: #fff;
+    border-left:1px solid #d7d2d2;
+    overflow-y: auto;
+    overflow-x: hidden;  
+  }
+  
+  #workspace{
+    width:90%; 
+    position: relative; 
+    background: #f8f8f5;
+  }
+  
+  @media screen and (max-width: 1366px ) {
+    .right-box{
+      width: 40%; 
+      height: 100%; 
+      background: #fff;
+      border-left:1px solid #d7d2d2;
+      overflow-y: auto;
+      overflow-x: hidden;    
+    }
+    
+    #workspace{
+      width:60%; 
+      position: relative; 
+      background: #f8f8f5;
+    }  
+  }
+  
+  @media screen and (max-width: 1500px ) {
+    .right-box{
+      width: 40%; 
+      height: 100%; 
+      background: #fff;
+      border-left:1px solid #d7d2d2;
+      overflow-y: auto;
+      overflow-x: hidden;    
+    }
+    
+    #workspace{
+      width:60%; 
+      position: relative; 
+      background: #f8f8f5;
+    }  
+  }

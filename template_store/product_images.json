@@ -1,0 +1,66 @@
+{
+    "product_images":[
+        {
+            "image_link": "https://i.ibb.co/M9HHVv8/download.jpg",
+            "name": "name1",
+            "id": "productid1",
+            "brand": "brand1",
+            "channel":"channel1",
+            "avablility":"avablility1",
+            "additional_image_link_first": "https://i.ibb.co/SKd5xd0/images-4.jpg",
+            "additional_image_link_1": "https://i.ibb.co/sbyH70f/images-10.jpg"
+        },
+        
+        {
+            "image_link": "https://i.ibb.co/4Pc85Vj/images-2.jpg",
+            "name": "name2",
+            "id": "productid2",
+            "brand": "brand2",
+            "channel":"channel2",
+            "avablility":"avablility2",            
+            "additional_image_link_first": "https://i.ibb.co/SKd5xd0/images-4.jpg",
+            "additional_image_link_1": "https://i.ibb.co/sbyH70f/images-10.jpg"
+        },
+        {
+            "image_link": "https://i.ibb.co/2F03qQY/images-3.jpg",
+            "name": "name3",
+            "id": "productid3",
+            "brand": "brand3",
+            "channel":"channel3",
+            "avablility":"avablility3",            
+            "additional_image_link_first": "https://i.ibb.co/SKd5xd0/images-4.jpg",
+            "additional_image_link_1": "https://i.ibb.co/sbyH70f/images-10.jpg"
+        },
+        {
+            "image_link": "https://i.ibb.co/SKd5xd0/images-4.jpg",
+            "name": "name4",
+            "id": "productid4",
+            "brand": "brand4",
+            "channel":"channel4",
+            "avablility":"avablility4",            
+            "additional_image_link_first": "https://i.ibb.co/SKd5xd0/images-4.jpg",
+            "additional_image_link_1": "https://i.ibb.co/sbyH70f/images-10.jpg"
+
+        },
+        {
+            "image_link": "https://i.ibb.co/sbyH70f/images-10.jpg",
+            "name": "name8",
+            "id": "productid8",
+            "brand": "brand8",
+            "channel":"channel8",
+            "avablility":"avablility8",            
+            "additional_image_link_first": "https://i.ibb.co/SKd5xd0/images-4.jpg",
+            "additional_image_link_1": "https://i.ibb.co/sbyH70f/images-10.jpg"
+        },
+        {
+            "image_link": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+            "name": "model8",
+            "id": "model8",
+            "brand": "model8",
+            "channel":"model8",
+            "avablility":"avablility8",            
+            "additional_image_link_first": "https://i.ibb.co/SKd5xd0/images-4.jpg",
+            "additional_image_link_1": "https://i.ibb.co/sbyH70f/images-10.jpg"
+        }                                          
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "default_images": [
+        {
+            "name": "additional_image_link_first",
+            "id": "additional_image_link_first",
+            "customType":"extra_product"
+        },
+        {
+            "name": "additional_image_link_last",
+            "id": "additional_image_link_last",
+            "customType":"extra_product"
+        },
+        {
+            "name": "additional_image_link_1",
+            "id": "additional_image_link_1",
+            "customType":"extra_product"
+        },
+        {
+            "name": "additional_image_link_2",
+            "id": "additional_image_link_2",
+            "customType":"extra_product"
+        },
+        {
+            "name": "additional_image_link_3",
+            "id": "additional_image_link_3",
+            "customType":"extra_product"
+        },
+        {
+            "name": "brand_image_link",
+            "id": "brand_image_link",
+            "customType":"extra_product"
+        }   
+    ]
+}
